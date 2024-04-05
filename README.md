@@ -19,5 +19,9 @@
  <hr>
  The images used in it are:
  <ol>
-   <li><a href="assets/images/"></li>
+   <li><a href="assets/images/Netflixhomepagebg.jpg">Netflixhomepagebg.jpg</a></li>
+   <li><a href="assets/images/children.png">Children.png</a></li>
+   <li><a href="assets/images/download-icon.gif">Download-icon.gif</a></li>
+   <li><a href="assets/images/rajmachawal.png">Rajmachawal.png</a></li>
+   <li><a href="assets/images/lang.svg">lang.svg</a></li>
  </ol>
