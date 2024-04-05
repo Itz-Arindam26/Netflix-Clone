@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Cagliostro&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/Netflixhomepagebg.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: max(1200px, 100vw);
+}
+.main>.box{
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+}
+nav{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+nav img{
+    width: 114px;
+    color: red;
+    position: relative;
+    z-index: 8;
+}
+nav button{
+    z-index: 8;
+    position: relative;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+    color: white;
+    position: relative;
+    font-family: "Poppins","Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+.hero > span:first-child{
+    font-size: 50px;
+    font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.hero span:nth-child(2){
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poppins","Baloo Bhaina 2","Martel Sans", Ubuntu, sans-serif;
+}
+.hero span:nth-child(3){
+    text-align: center;
+    font-size: 20px;
+    font-family: "Poppins","Baloo Bhaina 2","Martel Sans",sans-serif;
+}
+button{
+    padding: 9px;
+    background-color: red;
+    color: white;
+}
+.main>nav div button:first-child{
+    background-color: black;
+    color: white;
+    border-style: ridge;
+    padding: 3px;
+    padding-bottom: 6px;
+}
+.main>nav div button{
+    padding: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    /* font-size: 23px; */
+    border-style: none;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.hero span button{
+    padding: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 23px;
+    border-style: none;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.main>nav div button img:first-child {
+    width: 15px;
+    padding: 2px;
+    position: relative;
+    top: 4px;
+}
+input{
+    font-size: 17.5px;
+    color: white;
+    background-color: black;
+    border-style: ridge;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    gap: 14px;
+}
+.separation{
+    height: 10px;
+    background-color: rgb(35, 35, 35);
+    margin: 45px 0;
+}
+main{
+    color: white;
+}
+.enjoytv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+}
+.textenjoytv{
+    flex-direction: column;
+    display: flex;
+}
+.textenjoytv span:first-child{
+    font-size: 50px;
+    font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 900;
+    /* text-align: center; */
+}
+.enjoytv img{
+    width: 45vw;
+}
+.textenjoytv span:nth-child(2){
+    font-size: 20px;
+}
+.enjoyurvideo{
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.enjoyurvideo video{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 33vw;
+    position: relative;
+    top: -7px;
+}
+.enjoyurvideo img{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    position: relative;
+    z-index: 1;
+}
+.myenjoyphot{
+    display: flex;
+    flex-direction: column;
+}
+.myenjoyphot>span{
+    border: 2px solid rgb(35, 35, 35);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+    top: -48px;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    text-align: center;
+    align-self: center;
+}
+.myenjoyphot>span>span:nth-child(2)>span:nth-child(2){
+    color: blue;
+}
+.myenjoyphot>span>span>img{
+    width: 4vw;
+    padding-left: 8px;
+}
+.myenjoyphot>span>span:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+.myenjoyphot>img{
+    width: 28vw;
+}
+.downloadntflx{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 78vw;
+    margin: auto;
+}
+.txtmyenjoyphot1{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Martel Sans","Poppins","Baloo Da 2",sans-serif;
+}
+.txtmyenjoyphot{
+    width: 37vw;
+}
+.txtmyenjoyphot>div:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.txtrajmachawal{
+    display: flex;
+    flex-direction: column;
+}
+.txtrajmachawal>span:nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Martel Sans","Poppins","Baloo Da 2",sans-serif;
+}
+.txtrajmachawal>span:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    width: 38vw;
+}
+.photrajmachawal{
+    width: 51vw;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.photrajmachawal>img{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    position: relative;
+    z-index: 1;
+}
+.photrajmachawal>video{
+    width: 26rem;
+    top: -90px;
+    position: relative;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.rajmachawal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.children{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 77vw;
+    margin: auto;
+}
+.photchildren>img{
+    width: 43vw;
+}
+.txtchildren{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.txtchildren>div:first-child{
+    font-size: 48px;
+    font-family: "Martel Sans","Poppins",Roboto,Ubuntu,sans-serif;
+    font-weight: 900;
+}
+.txtchildren>div:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}

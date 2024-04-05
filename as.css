@@ -1,0 +1,221 @@
+.faqs {
+  width: 80vw;
+  margin: auto;
+}
+.faqs h1 {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Martel Sans", "Poppins", Ubuntu, sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+.faqs .faqque {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.faqs .faqque .faqque1 {
+  gap: 60.3vw;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(45, 45, 45);
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+.faqs .faqque .faqque1 span {
+  font-size: 24px;
+  font-family: "Poppins", Ubuntu, Roboto, sans-serif;
+  font-weight: 400;
+}
+.faqs .faqque .faqque1 span svg {
+  fill: white;
+}
+.faqs .faqque .faqque2 {
+  gap: 47.6vw;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(45, 45, 45);
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+.faqs .faqque .faqque2 span {
+  font-size: 24px;
+  font-family: "Poppins", Ubuntu, Roboto, sans-serif;
+  font-weight: 400;
+}
+.faqs .faqque .faqque2 span svg {
+  fill: white;
+}
+.faqs .faqque .faqque3 {
+  gap: 55.9vw;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(45, 45, 45);
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+.faqs .faqque .faqque3 span {
+  font-size: 24px;
+  font-family: "Poppins", Ubuntu, Roboto, sans-serif;
+  font-weight: 400;
+}
+.faqs .faqque .faqque3 span svg {
+  fill: white;
+}
+.faqs .faqque .faqque4 {
+  gap: 57.4vw;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(45, 45, 45);
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+.faqs .faqque .faqque4 span {
+  font-size: 24px;
+  font-family: "Poppins", Ubuntu, Roboto, sans-serif;
+  font-weight: 400;
+}
+.faqs .faqque .faqque4 span svg {
+  fill: white;
+}
+.faqs .faqque .faqque5 {
+  gap: 48.7vw;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(45, 45, 45);
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+.faqs .faqque .faqque5 span {
+  font-size: 24px;
+  font-family: "Poppins", Ubuntu, Roboto, sans-serif;
+  font-weight: 400;
+}
+.faqs .faqque .faqque5 span svg {
+  fill: white;
+}
+.faqs .faqque .faqque6 {
+  gap: 53.2vw;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(45, 45, 45);
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+.faqs .faqque .faqque6 span {
+  font-size: 24px;
+  font-family: "Poppins", Ubuntu, Roboto, sans-serif;
+  font-weight: 400;
+}
+.faqs .faqque .faqque6 span svg {
+  fill: white;
+}
+.faqs .readywatch {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+  padding-top: 2.5em;
+}
+.faqs .readywatch p {
+  font-family: "Poppins", Ubuntu, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.faqs .readywatch .flex button {
+  padding: 7px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-style: none;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 23px;
+}
+.faqs .readywatch .flex input {
+  font-size: 17.5px;
+  color: white;
+  background-color: black;
+  border-style: ridge;
+  padding: 14px;
+}
+
+#as100 {
+  margin: 80px 0;
+}
+
+footer {
+  width: 80vw;
+  margin: auto;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.7);
+}
+footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+footer .linkfoot {
+  display: flex;
+  margin-top: 18px;
+  gap: 9vw;
+}
+footer .linkfoot .linkfoot1 {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+footer .linkfoot .linkfoot2 {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+footer .linkfoot .linkfoot3 {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+footer .linkfoot .linkfoot4 {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+footer .asj button {
+  background-color: black;
+  color: white;
+  border-style: ridge;
+  padding: 3px;
+  padding-bottom: 6px;
+  margin: 1em 0;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 7px 0;
+  padding-top: 0px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-style: ridge;
+  font-size: 17px;
+}
+footer .asj button img {
+  width: 15px;
+  padding: 2px;
+  position: relative;
+  top: 4px;
+}
+footer .clear {
+  height: 6em;
+}/*# sourceMappingURL=as.css.map */

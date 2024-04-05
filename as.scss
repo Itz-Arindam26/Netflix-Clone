@@ -1,0 +1,179 @@
+@import "mixins";
+
+.faqs {
+    width: 80vw;
+    margin: auto;
+
+    h1 {
+        @include capfont;
+        text-align: center;
+    }
+
+    .faqque {
+        @include flexprop1;
+        .faqque1 {
+            gap: 60.3vw;
+            @include flexprop2;
+
+            span {
+                @include smfont;
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
+
+        .faqque2 {
+            gap: 47.6vw;
+            @include flexprop2;
+
+            span {
+                @include smfont;
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
+
+        .faqque3 {
+            gap: 55.9vw;
+            @include flexprop2;
+
+            span {
+                @include smfont;
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
+
+        .faqque4 {
+            gap: 57.4vw;
+            @include flexprop2;
+
+            span {
+                @include smfont;
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
+
+        .faqque5 {
+            gap: 48.7vw;
+            @include flexprop2;
+
+            span {
+                @include smfont;
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
+
+        .faqque6 {
+            gap: 53.2vw;
+            @include flexprop2;
+
+            span {
+                @include smfont;
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
+    }
+    .readywatch{
+        @include flexprop3;
+        @include bacg;
+        padding-top: 2.5em;
+        p{
+            font-family: "Poppins",Ubuntu,sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .flex{
+            button{
+                padding: 7px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 22px;
+                padding-right: 22px;
+                border-style: none;
+                font-weight: 600;
+                border-radius: 4px;
+                font-size: 23px;
+            }
+            input{
+                font-size: 17.5px;
+                color: white;
+                background-color: black;
+                border-style: ridge;
+                padding: 14px;
+            }
+        }
+    }
+}
+#as100{
+    margin: 80px 0;
+}
+footer{
+    width: 80vw;
+    margin: auto;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.7);
+    a{
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .linkfoot{
+        display: flex;
+        margin-top: 18px;
+        gap: 9vw;
+        .linkfoot1{
+            @include flexprop4
+        }
+        .linkfoot2{
+            @include flexprop4
+        }
+        .linkfoot3{
+            @include flexprop4
+        }
+        .linkfoot4{
+            @include flexprop4
+        }
+    }
+    .asj{
+        button{
+            background-color: black;
+            color: white;
+            border-style: ridge;
+            padding: 3px;
+            padding-bottom: 6px;
+            margin: 1em 0;
+            font-weight: 600;
+            border-radius: 4px;
+            padding: 7px 0;
+            padding-top: 0px;
+            padding-bottom: 4px;
+            padding-left: 6px;
+            padding-right: 6px;
+            border-style: ridge;
+            font-size: 17px;
+            img{
+                width: 15px;
+                padding: 2px;
+                position: relative;
+                top: 4px;
+            }
+        }
+    }
+    .clear{
+        height: 6em;
+    }
+}

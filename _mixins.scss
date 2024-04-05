@@ -1,0 +1,45 @@
+@mixin flexprop1{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+@mixin flexprop2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(45, 45, 45);
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+}
+@mixin flexprop3{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+@mixin capfont{
+    text-align: center;
+    font-size: 48px;
+    font-family: "Martel Sans","Poppins",Ubuntu,sans-serif;
+    font-weight: 900;
+}
+@mixin smfont{
+    font-size: 24px;
+    font-family: "Poppins",Ubuntu,Roboto,sans-serif;
+    font-weight: 400;
+}
+@mixin bacg{
+    background-color: black;
+}
+@mixin flexprop4{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
